@@ -3,6 +3,9 @@
     width: 100%;
     text-align: center;
 }
+.Home-contents{
+    padding-top: 70px;
+}
 .Home-movies{
     display: flex;
     flex-wrap: wrap;
