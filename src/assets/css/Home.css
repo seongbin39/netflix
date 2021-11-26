@@ -15,3 +15,55 @@
     margin: 0px auto;
     text-align: center;
 }
+.movie-item{
+    position: relative;
+}
+.movie-delete{
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: transparent;
+    opacity: 0.6;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.movie-delete:hover{
+    background: #a9a9a9;
+}
+.Home-entire{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* 모달창 스타일링 */
+.header, .body, .footer{
+    padding: 5px;
+}
+.header{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.body{
+    font-size: 1rem;
+    margin: 20px;
+}
+.body input{
+    width: 60%;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
